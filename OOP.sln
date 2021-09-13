@@ -3,9 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30114.105
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Geometri", "Geometri\Geometri.csproj", "{4EFBBBA8-FF2D-490A-A59B-FB3DFC227681}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Geometri", "Geometri\Geometri.csproj", "{4EFBBBA8-FF2D-490A-A59B-FB3DFC227681}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Planets", "Planets\Planets.csproj", "{32367476-63B1-42AB-9EDA-8A5FF07A8B53}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Planets", "Planets\Planets.csproj", "{32367476-63B1-42AB-9EDA-8A5FF07A8B53}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Queue", "Queue\Queue.csproj", "{C00B18CE-B57B-4DD9-968F-1C6EE516B12C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Library", "Library\Library.csproj", "{BB4D7859-5D4E-469B-8A01-9CB5576FC7D2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,9 +19,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 		Release|x64 = Release|x64
 		Release|x86 = Release|x86
-	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{4EFBBBA8-FF2D-490A-A59B-FB3DFC227681}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -44,5 +45,35 @@ Global
 		{32367476-63B1-42AB-9EDA-8A5FF07A8B53}.Release|x64.Build.0 = Release|Any CPU
 		{32367476-63B1-42AB-9EDA-8A5FF07A8B53}.Release|x86.ActiveCfg = Release|Any CPU
 		{32367476-63B1-42AB-9EDA-8A5FF07A8B53}.Release|x86.Build.0 = Release|Any CPU
+		{C00B18CE-B57B-4DD9-968F-1C6EE516B12C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C00B18CE-B57B-4DD9-968F-1C6EE516B12C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C00B18CE-B57B-4DD9-968F-1C6EE516B12C}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{C00B18CE-B57B-4DD9-968F-1C6EE516B12C}.Debug|x64.Build.0 = Debug|Any CPU
+		{C00B18CE-B57B-4DD9-968F-1C6EE516B12C}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{C00B18CE-B57B-4DD9-968F-1C6EE516B12C}.Debug|x86.Build.0 = Debug|Any CPU
+		{C00B18CE-B57B-4DD9-968F-1C6EE516B12C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C00B18CE-B57B-4DD9-968F-1C6EE516B12C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C00B18CE-B57B-4DD9-968F-1C6EE516B12C}.Release|x64.ActiveCfg = Release|Any CPU
+		{C00B18CE-B57B-4DD9-968F-1C6EE516B12C}.Release|x64.Build.0 = Release|Any CPU
+		{C00B18CE-B57B-4DD9-968F-1C6EE516B12C}.Release|x86.ActiveCfg = Release|Any CPU
+		{C00B18CE-B57B-4DD9-968F-1C6EE516B12C}.Release|x86.Build.0 = Release|Any CPU
+		{BB4D7859-5D4E-469B-8A01-9CB5576FC7D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB4D7859-5D4E-469B-8A01-9CB5576FC7D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB4D7859-5D4E-469B-8A01-9CB5576FC7D2}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{BB4D7859-5D4E-469B-8A01-9CB5576FC7D2}.Debug|x64.Build.0 = Debug|Any CPU
+		{BB4D7859-5D4E-469B-8A01-9CB5576FC7D2}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{BB4D7859-5D4E-469B-8A01-9CB5576FC7D2}.Debug|x86.Build.0 = Debug|Any CPU
+		{BB4D7859-5D4E-469B-8A01-9CB5576FC7D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB4D7859-5D4E-469B-8A01-9CB5576FC7D2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BB4D7859-5D4E-469B-8A01-9CB5576FC7D2}.Release|x64.ActiveCfg = Release|Any CPU
+		{BB4D7859-5D4E-469B-8A01-9CB5576FC7D2}.Release|x64.Build.0 = Release|Any CPU
+		{BB4D7859-5D4E-469B-8A01-9CB5576FC7D2}.Release|x86.ActiveCfg = Release|Any CPU
+		{BB4D7859-5D4E-469B-8A01-9CB5576FC7D2}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DB33DAAA-22CB-44DD-B9C3-4212392966CF}
 	EndGlobalSection
 EndGlobal

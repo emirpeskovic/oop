@@ -7,9 +7,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Geometri", "Geometri\Geomet
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Planets", "Planets\Planets.csproj", "{32367476-63B1-42AB-9EDA-8A5FF07A8B53}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Queue", "Queue\Queue.csproj", "{C00B18CE-B57B-4DD9-968F-1C6EE516B12C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Queue", "Queue\Queue.csproj", "{C00B18CE-B57B-4DD9-968F-1C6EE516B12C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Library", "Library\Library.csproj", "{BB4D7859-5D4E-469B-8A01-9CB5576FC7D2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Library", "Library\Library.csproj", "{BB4D7859-5D4E-469B-8A01-9CB5576FC7D2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jedi", "Jedi\Jedi.csproj", "{120718D0-F952-4F18-8ABD-A48070B49B2C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -69,6 +71,18 @@ Global
 		{BB4D7859-5D4E-469B-8A01-9CB5576FC7D2}.Release|x64.Build.0 = Release|Any CPU
 		{BB4D7859-5D4E-469B-8A01-9CB5576FC7D2}.Release|x86.ActiveCfg = Release|Any CPU
 		{BB4D7859-5D4E-469B-8A01-9CB5576FC7D2}.Release|x86.Build.0 = Release|Any CPU
+		{120718D0-F952-4F18-8ABD-A48070B49B2C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{120718D0-F952-4F18-8ABD-A48070B49B2C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{120718D0-F952-4F18-8ABD-A48070B49B2C}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{120718D0-F952-4F18-8ABD-A48070B49B2C}.Debug|x64.Build.0 = Debug|Any CPU
+		{120718D0-F952-4F18-8ABD-A48070B49B2C}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{120718D0-F952-4F18-8ABD-A48070B49B2C}.Debug|x86.Build.0 = Debug|Any CPU
+		{120718D0-F952-4F18-8ABD-A48070B49B2C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{120718D0-F952-4F18-8ABD-A48070B49B2C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{120718D0-F952-4F18-8ABD-A48070B49B2C}.Release|x64.ActiveCfg = Release|Any CPU
+		{120718D0-F952-4F18-8ABD-A48070B49B2C}.Release|x64.Build.0 = Release|Any CPU
+		{120718D0-F952-4F18-8ABD-A48070B49B2C}.Release|x86.ActiveCfg = Release|Any CPU
+		{120718D0-F952-4F18-8ABD-A48070B49B2C}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -62,8 +62,6 @@ namespace Queue
             actions.Add("Print all users", () => userQueue.ForEach(u => Console.WriteLine(u.Username)));
             actions.Add("Exit", () => Environment.Exit(0));
 
-            SinglePageNavigationMenu menu = new SinglePageNavigationMenu(actions);
-
             while (true)
             {
                 Console.Clear();
